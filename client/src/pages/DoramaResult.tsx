@@ -134,7 +134,7 @@ export default function DoramaResultPage({ result, onBack }: DoramaResultPagePro
                   Sinopse
                 </h2>
               </div>
-              <p className="text-base text-foreground leading-relaxed ml-8 line-clamp-4">
+              <p className="text-base text-foreground leading-relaxed ml-8">
                 {result.resume}
               </p>
             </motion.div>
