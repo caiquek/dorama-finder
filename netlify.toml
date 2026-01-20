@@ -1,11 +1,12 @@
 [build]
   command = "pnpm build"
-  publish = "dist"
+  publish = "dist/public"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true
 
 [context.production.environment]
   VITE_N8N_WEBHOOK_URL = "https://bisectionally-nondisputatious-tran.ngrok-free.dev/webhook-test/0e41dbb7-b0ae-44c1-bafa-513b1508c3ed"
